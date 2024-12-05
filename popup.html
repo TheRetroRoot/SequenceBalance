@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beneficiary Balances</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            line-height: 1.6;
+            width: 400px; /* Adjust the width of the popup */
+        }
+        h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #balances {
+            margin-top: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .balance-item {
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .beneficiary {
+            font-weight: bold;
+            color: #333;
+            display: block;
+        }
+        .amount {
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <h3>Beneficiary Balances (POD)</h3>
+    <button id="calculate">Calculate Balances</button>
+    <div id="balances">Click "Calculate Balances" to view the results.</div>
+    <script src="popup.js"></script>
+</body>
+</html>
+

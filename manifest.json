@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Beneficiary Balance Aggregator",
+  "version": "1.3",
+  "description": "Calculate balances for beneficiaries grouped by POD and Income Source rows.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://app.getsequence.io/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Calculate Beneficiary Balances",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
+
