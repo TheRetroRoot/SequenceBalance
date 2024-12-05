@@ -32,6 +32,9 @@ This extension **only works** while you are on the `account-list` page of [Seque
 ## 🔒 Disclaimer
 This is an open-source project made for convenience. Always use your best judgment when using code from the internet. Review the code and ensure it meets your security standards before installing.
 
+## 🖌️ Attribution
+Cash icon comes from [Business and finance icons](https://www.flaticon.com/free-icons/business-and-finance) created by [cah nggunung](https://www.flaticon.com/authors/cah-nggunung) - Flaticon.
+
 ## 📧 Questions or Feedback?
 Feel free to open an issue or contribute to the repository!
 
