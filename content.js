@@ -25,11 +25,11 @@
             const label = cells[1]?.querySelector("p")?.textContent?.trim();
             const isRelevantRow = label === "Pod" || label === "Income Source";
 
-            // Extract Beneficiary from the fourth column
-            const beneficiary = cells[3]?.querySelector("p")?.textContent?.trim();
+            // Extract Beneficiary from the fifth column
+            const beneficiary = cells[4]?.querySelector("p")?.textContent?.trim();
 
-            // Extract Amount from the fifth column
-            const amountText = cells[4]?.querySelector("p")?.textContent?.trim();
+            // Extract Amount from the sixth column
+            const amountText = cells[5]?.querySelector("p")?.textContent?.trim();
             const amount = parseFloat(amountText?.replace(/[^0-9.-]+/g, "")) || 0;
 
             if (isRelevantRow && beneficiary && !isNaN(amount)) {
